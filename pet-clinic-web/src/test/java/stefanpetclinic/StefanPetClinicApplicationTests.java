@@ -1,4 +1,4 @@
-package stefan.springframework.stefanpetclinic;
+package stefanpetclinic;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
