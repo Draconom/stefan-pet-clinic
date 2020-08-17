@@ -17,7 +17,7 @@
 
     <groupId>stefan.springframework</groupId>
     <artifactId>stefan-pet-clinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <name>stefan-pet-clinic</name>
     <description>Pet clinic project while following SFG</description>
 
@@ -40,6 +40,7 @@
                     <checkModificationExcludes>
                         <checkModificationExclude>pom.xml</checkModificationExclude>
                     </checkModificationExcludes>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -47,7 +48,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/Draconom/stefan-pet-clinic.git</developerConnection>
-      <tag>HEAD</tag>
+      <tag>stefan-pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
